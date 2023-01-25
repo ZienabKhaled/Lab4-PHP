@@ -1,0 +1,8 @@
+CREATE TABLE users (
+user_id int AUTO_INCREMENT,
+name varchar (50) , 
+email varchar (50) , 
+gender ENUM ('Male' , 'Female'), 
+send_emails ENUM ('yes', 'no'), 
+PRIMARY KEY(user_id) 
+);
